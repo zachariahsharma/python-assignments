@@ -32,8 +32,7 @@ def greatestcommon(number1, number2):
         for num2 in list_of_factors_2:
             if num1==num2:
                 commonlist.append(num1)
-    print(f'The Greatest Common Factor (GCF) of {number1} and {number2} is {commonlist[-1]}')
-
+    print("The Greatest Common Factor (GCF) of {0:d} and {1:d} is {2:d}".format(number1, number2, commonlist[-1]))
 
 
 if __name__  ==  '__main__':
